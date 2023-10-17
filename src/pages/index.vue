@@ -5,6 +5,7 @@ import { useProjectStore } from '~/stores/project'
 import { onIntersect } from '~/composables/onIntersect'
 import IconAccessibility from '~icons/carbon/accessibility-alt'
 
+  
 const count = ref(0)
 const store = useProjectStore()
 const newTagline = ref('')
